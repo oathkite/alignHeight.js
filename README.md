@@ -10,5 +10,6 @@ easy align height block element on html.
 
 `
     $(target).alignHeight();  
-    // sample
+    // sample  
+    $(target).alignHeight(4);
 `
