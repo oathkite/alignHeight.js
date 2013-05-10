@@ -1,4 +1,4 @@
-;(function($) {
+(function($) {
 	$.fn.alignHeight = function(column) {
 		var self = this;
 		var column = column ? column : 0;
