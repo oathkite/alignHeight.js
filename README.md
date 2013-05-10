@@ -8,4 +8,5 @@ easy align height block element on html.
 
 * Align height all items.  
 
-    $(target).alignHeight();
+    $(target).alignHeight();  
+    //test
