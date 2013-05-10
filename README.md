@@ -8,7 +8,7 @@ easy align height block element on html.
 
 * Align height all items.  
 
-`$(target).alignHeight({
-	test: sample,
-	test2: sample2
+`$(target).alignHeight({  
+	test: sample,  
+	test2: sample2  
 });`
