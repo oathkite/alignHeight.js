@@ -19,24 +19,6 @@ Number > number
 分割する数。デフォルトは0で、全ての要素の高さを揃えます。  
 
 ##サンプル
-###Javascript
-```js
-<script type="text/javascript">
-$(function() {
-	$(selector).alignHeight(4);
-});
-</script>
-
-```
-
-###css
-```css
-.item_list > li {
-	float: left;
-}
-
-```
-
 ###html
 ```html
 <ul class="item_list">
@@ -49,5 +31,24 @@ $(function() {
 	<li>item7</li>
 	<li>item8</li>
 </ul>
-
 ```
+
+###Javascript
+```js
+<script type="text/javascript">
+$(function() {
+	$('.item_list > li').alignHeight();
+});
+</script>
+```
+class名item_list直下のli全ての要素の高さを、それらの要素の一番大きい高さに揃えます。
+
+
+```js
+<script type="text/javascript">
+$(function() {
+	$('.item_list > li').alignHeight(4);
+});
+</script>
+```
+class名item_list直下のliが、4個毎にそれらの要素の一番大きい高さに揃えます。
