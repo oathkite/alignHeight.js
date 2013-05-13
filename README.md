@@ -22,18 +22,19 @@ Number > number
 ###html
 ```html
 <ul class="item_list">
-	<li>item1</li>
-	<li>item2</li>
-	<li>item3</li>
-	<li>item4</li>
-	<li>item5</li>
-	<li>item6</li>
-	<li>item7</li>
-	<li>item8</li>
+	<li style="height: 10px;">item1</li>
+	<li style="height: 20px;">item2</li>
+	<li style="height: 30px;">item3</li>
+	<li style="height: 40px;">item4</li>
+	<li style="height: 50px;">item5</li>
+	<li style="height: 60px;">item6</li>
+	<li style="height: 70px;">item7</li>
+	<li style="height: 80px;">item8</li>
 </ul>
 ```
 
 ###Javascript
+####例1
 ```js
 <script type="text/javascript">
 $(function() {
@@ -41,9 +42,11 @@ $(function() {
 });
 </script>
 ```
-class名item_list直下のli全ての要素の高さを、それらの要素の一番大きい高さに揃えます。
+class名item_list直下のli全ての要素の高さを、それらの要素の一番大きい高さに揃えます。  
+（全ての高さが80pxになります。）  
 
 
+####例2
 ```js
 <script type="text/javascript">
 $(function() {
@@ -52,3 +55,4 @@ $(function() {
 </script>
 ```
 class名item_list直下のliが、4個毎にそれらの要素の一番大きい高さに揃えます。
+(item1 ~ item4の高さが40pxに、item5 ~ item8の高さが80pxになります。)
