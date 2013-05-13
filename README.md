@@ -1,11 +1,20 @@
 alignHeight.js
 ==============
 
-easy align height block element on html.
+任意のブロック要素の高さを、一番大きい高さに合わせるjQueryプラグインです。引数に数値を渡すと、渡した数の要素毎に高さの最大値をリセットします。  
+
+##必要な物
+jquery(1.8以上)
 
 
-## How to use  
-
+###使い方
+```js
+$(selector).alignHeight(Number);
 ```
-$(target).alignHeight();  
-$(target).alignHeight();
+
+指定された全ての要素の高さを、それらの要素の一番大きい高さに揃えます。
+
+###引数
+Number > number  
+分割する数。デフォルトは0で、全ての要素の高さを揃えます。  
+
