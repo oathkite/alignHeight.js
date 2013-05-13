@@ -7,7 +7,7 @@ alignHeight.js
 jquery(1.8以上)
 
 
-###使い方
+##使い方
 ```js
 $(selector).alignHeight(Number);
 ```
