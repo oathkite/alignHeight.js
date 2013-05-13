@@ -42,8 +42,7 @@ $(function() {
 });
 </script>
 ```
-class名item_list直下のli全ての要素の高さを、それらの要素の一番大きい高さに揃えます。  
-（全ての高さが80pxになります。）  
+class名item_list直下のli全ての要素の高さを、それらの要素の一番大きい高さに揃えます。  （全ての高さが80pxになります。）  
 
 
 ####例2
@@ -54,5 +53,5 @@ $(function() {
 });
 </script>
 ```
-class名item_list直下のliが、4個毎にそれらの要素の一番大きい高さに揃えます。
+class名item_list直下のliが、4個毎にそれらの要素の一番大きい高さに揃えます。  
 (item1 ~ item4の高さが40pxに、item5 ~ item8の高さが80pxになります。)
