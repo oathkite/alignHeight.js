@@ -35,7 +35,7 @@ Number > number
 
 ###Javascript
 ####例1
-```javascript
+```html
 <script type="text/javascript">
 $(function() {
 	$('.item_list > li').alignHeight();
@@ -47,7 +47,7 @@ class名item_list直下のli全ての要素の高さを、それらの要素の�
 
 
 ####例2
-```javascript
+```html
 <script type="text/javascript">
 $(function() {
 	$('.item_list > li').alignHeight(4);
